@@ -1,0 +1,110 @@
+
+html{
+  background: url(../imagenes/ultima.jpg);
+  background-size: 90%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:url(../imagenes/hannya_alv.png);
+  background-repeat: no-repeat;
+  background-position: 70% 0;
+  height: 100%;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-size: 40%;
+}
+.titulo{
+  position: absolute;
+  left: 48%;
+  bottom: 82%;
+  width:300px;
+  margin: 0;
+  padding: 0;
+}
+.png_1{
+  width: 150px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+.png_1:active{
+  width: 130px;
+
+  /*display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30%;
+  left: 25%;*/
+}
+
+.png_2{
+  width: 200px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 52%;
+}
+.png_2:active{
+  width: 175px;
+
+  /*display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 45%;
+  left: 52%;*/
+}
+.png_3{
+  width: 210px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 32%;
+  left: 82%;
+}
+.png_3:active{
+  width: 185px;
+
+  /*display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 32%;
+  left: 82%;*/
+}
+
+.sub_1{
+  position: absolute;
+  top:  60%;
+  left: 21%;
+  font-family: "chiller";
+  letter-spacing: 12px;
+  font-size: 25px;
+}
+.sub_2{
+  color: rgb(233, 233, 233);
+  font-family: "chiller";
+  letter-spacing: 23px;
+  position: absolute;
+  top:  50%;
+  left: 56%;
+}
+.sub_3
+{
+  position: absolute;
+  top:  60%;
+  font-family: "chiller";
+  letter-spacing: 12px;
+  font-size: 25px;
+  left: 87%;
+}

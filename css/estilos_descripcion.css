@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url("../imagenes/fondo_des_2.jpg");
+
+}
+.descripcion{
+  margin: auto;
+ margin-top: 1px;
+  width: 700px;
+  height: 600px;
+  background:url("../imagenes/montañas_japo.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 110%;
+
+  border: 2px solid rgb(30, 31, 26);
+
+}
+.fiel{
+  margin:1%;
+  margin-top:2%;
+  width: 730px;
+  height: 640px;
+  border: 4px solid rgb(30, 31, 26);
+}
+legend{
+  font-family: "chiller";
+  font-size: 25px;
+  color: rgb(240, 233, 233);
+  padding-left:10px;
+  padding-right:  10px;
+  letter-spacing: 20px;
+}
+p{
+  font-size: 95%;
+  color:rgb(219, 219, 242);
+}
+
+
+
+
+.png_2{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 70%;
+  bottom:10%;
+  width: 200px;
+}
+.mapa{
+  margin: 0;
+  padding: 0;
+  font-family: "chiller";
+  position: absolute;
+  left: 73%;
+  bottom:1%;
+  font-size: 80px;
+  color:rgb(217, 14, 14);
+}
+h2{
+  color:rgb(255, 247, 247);
+}
+.t_1{
+  display: inline;
+  color: rgb(190, 182, 184);
+}
+.t_2{
+    display: inline;
+    color: rgb(190, 182, 184);
+}
+.t_3{
+    display: inline;
+    color: rgb(190, 182, 184);
+}
+.t_4{
+    display: inline;
+    color: rgb(190, 182, 184);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="fondo">
+<head>
+<title>Mapa</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="https://js.arcgis.com/3.26/esri/css/esri.css">
+<link rel="stylesheet" type="text/css" href="css/Cssmapa.css">
+<link rel="icon"  href="imagenes/icono_2.png">
+<script>var dojoConfig = { parseOnLoad:true };</script>
+<script src="https://js.arcgis.com/3.26compact/"></script>
+<script>
+  var map;
+  require([
+  "esri/map",
+  "esri/arcgis/utils",
+  "esri/dijit/Legend",
+  "dojo/domReady!"], function (Map, arcgisUtils, Legend) {
+    arcgisUtils.createMap("3efd8b485a304671b3f108140dae4209", "mapDiv").then(function (response) {
+    map = response.map;
+
+    var legend = new Legend({
+      map: map,
+      layerInfos:(arcgisUtils.getLegendLayers(response))
+    }, "legendDiv");
+
+    legend.startup();
+  });
+});
+</script>
+<script src="javascript/java.js"></script>
+</head>
+<body>
+    <h2>MascarasJaponesas </h2>
+    <h6>INICIO  </h6>
+    <div id="mapa">
+      <div id=mapDiv></div>
+    </div>
+    <div id="legendDiv"></div>
+
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/7Df-ca4sgN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<a href="#" onclick="inicio('file:///D:/mapa_semana/hannya.html')">
+    <img src="imagenes/mapa.png" alt="" class="b_inicio">
+</a>
+<!--<h3 >INICIO</h3>-->
+
+</body>
+</html>
